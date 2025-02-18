@@ -1,8 +1,11 @@
 cargo-features = ["codegen-backend"]
 [package]
 name = "sctw"
-version = "0.1.0"
+version = "1.1.0"
 edition = "2024"
+license = "MIT"
+authors = ["Adhyan H. <adhyanpatel@gmail.com>"]
+description = "A simple wrapper around sct for setting the color temperature of your screen."
 
 [dependencies]
 serde = { version = "1.0.217", features = ["derive"] }
